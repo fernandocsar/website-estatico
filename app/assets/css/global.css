@@ -35,7 +35,7 @@ a:hover{
 
 .main::before, .main::after {
     content: '';
-    background-image: url('../img/background/background.png');
+    background-image: url('../img/background/background.webp');
     background-repeat: no-repeat;
     background-size: contain;
     width: 140vw;
