@@ -935,7 +935,7 @@ canvas {
 .light {
   --color-shadow: rgb(2 12 27 / 10%);
   --color-shadow--card: inset 0 1px 0 0 rgb(255 255 255 / 5%);
-  --color-nav--transparent: #2d415ef1;
+  --color-nav--transparent: #233368;
   --color-nav--transparent-dark: #253449f1;
   --color-font: rgba(255, 255, 255, 0.774);
   --color-font--light: #e1e1e6;
