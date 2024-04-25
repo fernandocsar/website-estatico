@@ -395,6 +395,28 @@
     })();
   </script>
   <!-- End Matomo Tag Manager -->
+
+  <script>
+    // Função para mostrar/ocultar o botão
+    function toggleGoTopButton() {
+      const goTopButton = document.querySelector('.go-top');
+      if (window.scrollY > 100) {
+        goTopButton.classList.add('show');
+      } else {
+        goTopButton.classList.remove('show');
+      }
+    }
+  
+    // Evento de rolagem
+    window.addEventListener('scroll', toggleGoTopButton);
+  </script>
+
+<a href="#" class="go-top" aria-label="Go to top">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+  </svg>
+</a>
+
 </body>
 
 </html>
