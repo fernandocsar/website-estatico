@@ -3,6 +3,10 @@
 
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <title>Fernando César - Analista de Sistemas</title>
 
   <meta charset="utf-8" />
@@ -190,19 +194,13 @@
           <div class="col-lg-12">
             <h2 class="text-small">Um pouco sobre mim</h2>
             <p class="section-title">Sobre</p>
-
             <p>
               Olá! Sou o Fernando, uma pessoa dedicada no desenvolvimento de soluções inovadoras. Com uma sólida experiência no desenvolvimento de sites e uma paixão por programação back-end, mergulho em projetos desafiadores para criar experiências excepcionais.
-            </p>
-
-            <p>
+              <br><br>
               Minhas habilidades abrangem diversas linguagens e tecnologia, contudo, sou fã do Java. Isso me capacita a enfrentar desafios complexos e transformar ideias em realidade.
-            </p>
-
-            <p>
+              <br><br>
               Além disso, possuo expertise em Inteligência Artificial, explorando algoritmos e modelos para criar soluções inteligentes que melhoram a experiência do usuário e otimizam processos.
             </p>
-
           </div>
         </div>
       </div>
@@ -250,14 +248,13 @@
         </div>
       </div>
     </section>
-
+    
     <span id="skills"></span>
     <section class="app-section">
       <div class="container">
         <h2 class="text-small">Minhas experiências</h2>
         <p class="section-title">Linguagens e tecnologias</p>
         <p>Aqui estão as linguagens e tecnologias que eu tenho contato.</p>
-
         <div class="container-grid--tech scroll-group--card" id="card-skills"></div>
       </div>
     </section>
@@ -297,16 +294,13 @@
     </section>
 
     <footer>
-      <p>© 2024 | Fernando César</p>
+      <p>© 2024 | &nbsp<i class="fa-solid fa-mug-saucer"></i>&nbsp Fernando César</p>
     </footer>
   </main>
 
   <!-- JavaScript -->
   <script type="text/javascript" src="assets/js/all.min.js"></script>
   <script type="text/javascript" src="assets/js/plugins/bootstrap.min.js"></script>
-
-  <!-- Linkedin -->
-  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
   <!-- Matomo Tag Manager -->
   <script>
@@ -317,10 +311,9 @@
       g.async=true; g.src='https://fernandocsar.com.br/matomo/js/container_SY0dE901.js'; s.parentNode.insertBefore(g,s);
     })();
   </script>
-  <!-- End Matomo Tag Manager -->
 
+  <!-- Função para mostrar/ocultar o botão -->
   <script>
-    // Função para mostrar/ocultar o botão
     function toggleGoTopButton() {
       const goTopButton = document.querySelector('.go-top');
       if (window.scrollY > 100) {
@@ -329,16 +322,14 @@
         goTopButton.classList.remove('show');
       }
     }
-  
-    // Evento de rolagem
     window.addEventListener('scroll', toggleGoTopButton);
   </script>
 
-<a href="#" class="go-top" aria-label="Go to top">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
-    <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
-  </svg>
-</a>
+  <a href="#" class="go-top" aria-label="Go to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+    </svg>
+  </a>
 
 </body>
 </html>
