@@ -45,10 +45,11 @@ web-site-estatico/
 │   ├── favicon.ico
 │   ├── index.html
 │   ├── manifest.webmanifest
-│   └── sw.js
+│   ├── sw.js
+│   └── .htaccess
 ├── .gitignore
 ├── LICENSE
-├── optimize-images.md
+├── security-headers.md
 ├── README.md
 └── robots.txt
 ```
@@ -98,6 +99,17 @@ O site foi otimizado para máxima performance:
 - **Ícones Otimizados**: PWA icons em tamanhos otimizados
 - **Lazy Loading**: Carregamento sob demanda
 - **CDN**: Fontes e ícones via CDN para melhor performance
+
+## 🔒 Segurança
+
+O projeto implementa as melhores práticas de segurança:
+
+- **Headers de Segurança**: CSP, X-Frame-Options, X-XSS-Protection
+- **HTTPS Forçado**: Redirecionamento automático para HTTPS
+- **Links Seguros**: Todos os links externos com `rel="noreferrer noopener"`
+- **SRI (Subresource Integrity)**: Verificação de integridade para recursos externos
+- **CSP (Content Security Policy)**: Política de segurança de conteúdo
+- **Proteção contra Clickjacking**: X-Frame-Options configurado
 
 ## 🎨 Personalização
 

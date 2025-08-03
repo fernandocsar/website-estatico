@@ -11,6 +11,16 @@
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  
+  <!-- Security Headers -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-Frame-Options" content="DENY" />
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()" />
+  
+  <!-- Content Security Policy -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://fernandocsar.com.br https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:; connect-src 'self' https://fernandocsar.com.br; frame-ancestors 'none';" />
 
   <!-- SEO -->
   <meta name="description"
@@ -47,7 +57,7 @@
   <meta name="apple-mobile-web-app-status-bar" content="#0F172A" />
   <meta name="theme-color" content="#0F172A" />
 
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet" crossorigin="anonymous" />
 
   <link rel="shortcut icon" href="favicon.ico" />
   <link rel="manifest" href="manifest.webmanifest" />
@@ -153,7 +163,7 @@
               <p class="app-text--description">
                 Analista de Sistemas com sólida experiência em desenvolvimento web, especializado em soluções back-end 
                 e tecnologias emergentes. Atualmente trabalhando na <a class="app-link"
-                  href="http://www.infraestrutura.mg.gov.br/" target="_blank" rel="noreferrer">Seinfra/MG</a>, 
+                  href="https://www.infraestrutura.mg.gov.br/" target="_blank" rel="noreferrer noopener">Seinfra/MG</a>, 
                 focado em inovação e transformação digital.
               </p>
 
