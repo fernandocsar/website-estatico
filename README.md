@@ -122,4 +122,4 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 
 ---
 
-Desenvolvido com ❤️ por Fernando César
+Desenvolvido por Fernando César
